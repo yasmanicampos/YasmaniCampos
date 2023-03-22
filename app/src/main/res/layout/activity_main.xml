@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="30sp"
+        android:layout_below="@id/numero2"
+        />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/escribe_un_numero1"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/escribe_un_numero"
+        android:inputType="number"
+        android:layout_below="@id/numero1"/>
+
+
+        <Button
+            android:id="@+id/button_suma"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"
+            android:layout_below="@id/resultado"/>
+
+        <Button
+            android:id="@+id/button_resta"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/resta"
+
+            android:layout_below="@id/button_suma"/>
+
+
+
+        <Button
+            android:id="@+id/button_division"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/divisi_n"
+            android:layout_below="@id/resultado"
+            android:layout_alignParentRight="true"
+           />
+
+        <Button
+            android:id="@+id/button_multiplicacion"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicaci_n"
+            android:layout_below="@id/button_division"
+            android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

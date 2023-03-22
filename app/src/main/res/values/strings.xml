@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YasmaniCampos</string>
+    <string name="suma">Suma</string>
+    <string name="escribe_un_numero">Escribe un numero</string>
+    <string name="divisi_n">División</string>
+    <string name="multiplicaci_n">Multiplicación</string>
+    <string name="resta">Resta</string>
+    <string name="escribe_un_numero1">Escribe un numero1</string>
+    <string name="resultado">resultado</string>
+</resources>
